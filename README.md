@@ -1,6 +1,6 @@
 # Routing among Strategic LLM Providers: A Contextual Mechanism without Monetary Transfers
 
-## Paper: [paper.pdf](paper.pdf)
+## Full Paper: [paper.pdf](paper.pdf)
 
 The full version of the paper, main text and appendices with all proofs, is [`paper.pdf`](paper.pdf). This repository
 holds the code, the results and the figures behind it.
