@@ -1,0 +1,5 @@
+n=4000000 runs=8 control=False L=2000 g=45 sigma=0.7773 tau=0.2227
+  empirical P(Z=1): baseline 0.500  deviation 0.500   (law of path, should both be ~0.5)
+  mean gain 3547571.4 (+- 2628076.9)  = 0.8869 n
+  analytic expected gain 3547571.4 = 0.8869 n
+  Prop (i) bound (Lambda=1, E J'=3) 1552901.9 = 0.3882 n

@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.25_honNT_muLow_focTop",
+ "alias": "K2_unique_top",
+ "n": 200,
+ "bids": [
+  0.7,
+  0.35
+ ],
+ "tag": "bad",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.9,
+  0.65
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.65,
+ "M_top": 0.9,
+ "revenue": {
+  "revenue_LB": 52.60003018135673,
+  "revenue_UB": 52.60003018135673,
+  "revenue_LB_per_round": 0.26300015090678364,
+  "revenue_UB_per_round": 0.26300015090678364
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 200,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.7,
+    0.35
+   ],
+   "honest_agent": false,
+   "L": 50,
+   "N": 100,
+   "s_n": 0.4751795852865739,
+   "M_i": 0.9,
+   "mu_i": 0.1,
+   "V_i": 0.65,
+   "P_win": 0.9998477640771337,
+   "dropped_mass": 1.1207494508454912e-14,
+   "base_LB": 129.88855212442604,
+   "base_UB": 129.88855212443053,
+   "V_F0": 138.31083814509194,
+   "V_FUB": 138.3108381450964,
+   "exploit_LB": 8.422286020661403,
+   "exploit_UB": 8.422286020670356,
+   "L_n": 50,
+   "theorem_constant_top": 196.2917066945021,
+   "seconds": 0.0446925163269043,
+   "exploit_LB_per_round": 0.042111430103307014,
+   "exploit_UB_per_round": 0.04211143010335178
+  },
+  "1": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 200,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.7,
+    0.35
+   ],
+   "honest_agent": true,
+   "L": 50,
+   "N": 100,
+   "s_n": 0.4751795852865739,
+   "M_i": 0.65,
+   "mu_i": 0.35,
+   "V_i": 0.9,
+   "P_win": 0.00015223592286571188,
+   "dropped_mass": 4.055144895867983e-14,
+   "base_LB": 50.01522359228252,
+   "base_UB": 50.01522359229895,
+   "V_F0": 65.21710284348933,
+   "V_FUB": 65.21710284350577,
+   "exploit_LB": 15.201879251190377,
+   "exploit_UB": 15.201879251223254,
+   "L_n": 50,
+   "theorem_constant_top": 196.2917066945021,
+   "seconds": 0.06306672096252441,
+   "exploit_LB_per_round": 0.07600939625595188,
+   "exploit_UB_per_round": 0.07600939625611627
+  }
+ }
+}

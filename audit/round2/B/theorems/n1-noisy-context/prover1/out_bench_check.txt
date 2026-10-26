@@ -1,0 +1,6 @@
+trials 199613; B1 violations 0, worst ratio lhs/rhs 1.0000
+B2 violations 0, worst ratio 1.0000
+worst ratio against SCOUT bound e_b(omega+omega_2): 1.0000
+tight example e=0.05: loss 0.0500, bound 0.0500
+tight example e=0.2: loss 0.2000, bound 0.2000
+tight example e=0.5: loss 0.5000, bound 0.5000

@@ -1,0 +1,9 @@
+n=60000 L=3510 s=0.0808 kappa=0.0810 ell=44.70
+pi[b,a]= [[0.757, 0.122, 0.122], [0.19, 0.667, 0.143], [0.19, 0.143, 0.667]]
+Mbar[b,j]= [[0.784, 0.606, 0.5], [0.738, 0.581, 0.5], [0.293, 0.66, 0.5]]
+pointwise shortfall sh_b (price proxy Mbar_(2)) = [0.0737, 0.083, 0.0]
+benchmarks: E Mbar_(2)(B) = 0.5647, E M_(2)(X) = 0.5550, epsbar*max M_(2) = 0.1800
+dev=pointwise mean gain  -2525.3 (se  103.7); Theorem N(A) bound   28918.5; L=3510
+dev=underbid  mean gain   1087.9 (se    1.2); Theorem N(A) bound   28918.5; L=3510
+dev=shade     mean gain    513.2 (se    0.6); Theorem N(A) bound   28918.5; L=3510
+dev=both      mean gain   1601.1 (se    1.4); Theorem N(A) bound   28918.5; L=3510

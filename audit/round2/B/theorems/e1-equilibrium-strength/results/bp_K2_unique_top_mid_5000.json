@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.25_honNT_muLow_focTop",
+ "alias": "K2_unique_top",
+ "n": 5000,
+ "bids": [
+  0.7,
+  0.5
+ ],
+ "tag": "mid",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.9,
+  0.65
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.65,
+ "M_top": 0.9,
+ "revenue": {
+  "revenue_LB": 1988.2063906267824,
+  "revenue_UB": 1988.2063906267824,
+  "revenue_LB_per_round": 0.3976412781253565,
+  "revenue_UB_per_round": 0.3976412781253565
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 5000,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.7,
+    0.5
+   ],
+   "honest_agent": false,
+   "L": 620,
+   "N": 3760,
+   "s_n": 0.1690940450459086,
+   "M_i": 0.9,
+   "mu_i": 0.1,
+   "V_i": 0.65,
+   "P_win": 0.9999999999998201,
+   "dropped_mass": 2.453759178934713e-13,
+   "base_LB": 3139.793609371459,
+   "base_UB": 3139.7936093739127,
+   "V_F0": 3477.9398613687463,
+   "V_FUB": 3489.977853598025,
+   "exploit_LB": 338.1462519948336,
+   "exploit_UB": 350.1842442265661,
+   "L_n": 620,
+   "theorem_constant_top": 1462.1313731927733,
+   "seconds": 41.73244857788086,
+   "exploit_LB_per_round": 0.06762925039896672,
+   "exploit_UB_per_round": 0.07003684884531322
+  },
+  "1": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 5000,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.7,
+    0.5
+   ],
+   "honest_agent": true,
+   "L": 620,
+   "N": 3760,
+   "s_n": 0.1690940450459086,
+   "M_i": 0.65,
+   "mu_i": 0.35,
+   "V_i": 0.9,
+   "P_win": 1.8011768319475518e-13,
+   "dropped_mass": 3.2071248623582495e-13,
+   "base_LB": 527.0000000006194,
+   "base_UB": 527.0000000038461,
+   "V_F0": 621.7400945884907,
+   "V_FUB": 624.0217980978751,
+   "exploit_LB": 94.74009458464457,
+   "exploit_UB": 97.02179809725578,
+   "L_n": 620,
+   "theorem_constant_top": 1462.1313731927733,
+   "seconds": 41.14231991767883,
+   "exploit_LB_per_round": 0.018948018916928912,
+   "exploit_UB_per_round": 0.019404359619451157
+  }
+ }
+}

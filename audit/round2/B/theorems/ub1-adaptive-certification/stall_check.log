@@ -1,0 +1,26 @@
+n=  10000 Tstall=0.01n ok=1.00 Tc*=466 Tc'=647 p*=0.6957 p'=0.6654 gain=212 (se 10) gain/n=0.0212
+n=  10000 Tstall=0.03n ok=1.00 Tc*=466 Tc'=967 p*=0.6957 p'=0.6372 gain=338 (se 15) gain/n=0.0338
+<repo>/scratch/round2/ub1/stall_check.py:34: RuntimeWarning: Mean of empty slice
+  return dict(n=n, frac_ok=ok.mean(), Tc_base=base['Tc'][ok].mean(), Tc_dev=dev['Tc'][ok].mean(),
+<scratch>/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+<repo>/scratch/round2/ub1/stall_check.py:35: RuntimeWarning: Mean of empty slice
+  p_base=base['p'][ok].mean(), p_dev=dev['p'][ok].mean(),
+<repo>/scratch/round2/ub1/stall_check.py:36: RuntimeWarning: Mean of empty slice
+  gain=g[ok].mean(), gain_se=g[ok].std(ddof=1) / math.sqrt(ok.sum()), gain_per_n=g[ok].mean() / n)
+<scratch>/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+<scratch>/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+<scratch>/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+n=  10000 Tstall=0.10n ok=0.00 Tc*=nan Tc'=nan p*=nan p'=nan gain=nan (se nan) gain/n=nan
+n=  31623 Tstall=0.01n ok=1.00 Tc*=514 Tc'=1060 p*=0.6973 p'=0.6386 gain=1581 (se 53) gain/n=0.0500
+n=  31623 Tstall=0.03n ok=1.00 Tc*=514 Tc'=1957 p*=0.6973 p'=0.6009 gain=2321 (se 72) gain/n=0.0734
+n=  31623 Tstall=0.10n ok=0.00 Tc*=nan Tc'=nan p*=nan p'=nan gain=nan (se nan) gain/n=nan
+n= 100000 Tstall=0.01n ok=1.00 Tc*=585 Tc'=2102 p*=0.6979 p'=0.6030 gain=8724 (se 153) gain/n=0.0872
+n= 100000 Tstall=0.03n ok=1.00 Tc*=585 Tc'=4635 p*=0.6979 p'=0.5693 gain=10824 (se 151) gain/n=0.1082
+n= 100000 Tstall=0.10n ok=0.18 Tc*=541 Tc'=12411 p*=0.6913 p'=0.5363 gain=9512 (se 405) gain/n=0.0951
+n= 316228 Tstall=0.01n ok=1.00 Tc*=648 Tc'=4968 p*=0.7018 p'=0.5720 gain=38882 (se 447) gain/n=0.1230
+n= 316228 Tstall=0.03n ok=1.00 Tc*=648 Tc'=12310 p*=0.7018 p'=0.5450 gain=43737 (se 430) gain/n=0.1383
+n= 316228 Tstall=0.10n ok=1.00 Tc*=648 Tc'=36452 p*=0.7018 p'=0.5261 gain=37622 (se 454) gain/n=0.1190

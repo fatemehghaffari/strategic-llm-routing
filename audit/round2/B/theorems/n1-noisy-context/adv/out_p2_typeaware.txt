@@ -1,0 +1,11 @@
+n=100000 R=100 L=5002 s=0.0692 Mbar=[0.75  0.645 0.585] b_n(N)=1409 R_K=1729 bound=8141
+baseline: win=1.00 conv=0.000 tau=0.5750
+  type-rider h=0           gain= -16093.0 +-   116.4 conv=1.000  gain/b_n(N)=-11.418  gain/bound=-1.977
+  type-rider h=3           gain= -15051.6 +-   174.9 conv=1.000  gain/b_n(N)=-10.679  gain/bound=-1.849
+  type-rider h=10          gain=   1400.7 +-    19.7 conv=0.000  gain/b_n(N)=0.994  gain/bound=0.172
+  type-rider h=15          gain=   1395.7 +-    19.7 conv=0.000  gain/b_n(N)=0.990  gain/bound=0.171
+  type-only-zero           gain=  -2121.0 +-   111.8 conv=0.000  gain/b_n(N)=-1.505  gain/bound=-0.261
+  seed-rider h=15 (P2's)   gain=   1395.7 +-    19.7 conv=0.000  gain/b_n(N)=0.990  gain/bound=0.171
+  seed-rider h=10          gain=   1400.7 +-    19.7 conv=0.000  gain/b_n(N)=0.994  gain/bound=0.172
+  CONTROL blind-rider h=15 gain= -14826.4 +-   125.5 conv=1.000  gain/b_n(N)=-10.519  gain/bound=-1.821
+  CONTROL blind-rider h=10 gain= -15337.2 +-   119.6 conv=1.000  gain/b_n(N)=-10.882  gain/bound=-1.884

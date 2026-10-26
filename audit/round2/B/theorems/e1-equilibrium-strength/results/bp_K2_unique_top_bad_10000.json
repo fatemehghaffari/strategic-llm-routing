@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.25_honNT_muLow_focTop",
+ "alias": "K2_unique_top",
+ "n": 10000,
+ "bids": [
+  0.7,
+  0.35
+ ],
+ "tag": "bad",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.9,
+  0.65
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.65,
+ "M_top": 0.9,
+ "revenue": {
+  "revenue_LB": 2752.207526035841,
+  "revenue_UB": 2752.207526035841,
+  "revenue_LB_per_round": 0.2752207526035841,
+  "revenue_UB_per_round": 0.2752207526035841
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 10000,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.7,
+    0.35
+   ],
+   "honest_agent": false,
+   "L": 1007,
+   "N": 7986,
+   "s_n": 0.13777140921156078,
+   "M_i": 0.9,
+   "mu_i": 0.1,
+   "V_i": 0.65,
+   "P_win": 0.9999999999999996,
+   "dropped_mass": 3.642033208403494e-13,
+   "base_LB": 7492.542473960962,
+   "base_UB": 7492.542473968246,
+   "V_F0": 8178.101257424323,
+   "V_FUB": 8188.011905671383,
+   "exploit_LB": 685.5587834560774,
+   "exploit_UB": 695.4694317104213,
+   "L_n": 1007,
+   "theorem_constant_top": 2229.419379412488,
+   "seconds": 160.40929079055786,
+   "exploit_LB_per_round": 0.06855587834560774,
+   "exploit_UB_per_round": 0.06954694317104212
+  },
+  "1": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 10000,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.7,
+    0.35
+   ],
+   "honest_agent": true,
+   "L": 1007,
+   "N": 7986,
+   "s_n": 0.13777140921156078,
+   "M_i": 0.65,
+   "mu_i": 0.35,
+   "V_i": 0.9,
+   "P_win": 1.1967847983145123e-59,
+   "dropped_mass": 3.980979747007315e-13,
+   "base_LB": 1007.0,
+   "base_UB": 1007.0000000079654,
+   "V_F0": 1007.0000000004159,
+   "V_FUB": 1007.0000000091485,
+   "exploit_LB": -7.549488145741634e-09,
+   "exploit_UB": 9.148493518296164e-09,
+   "L_n": 1007,
+   "theorem_constant_top": 2229.419379412488,
+   "seconds": 159.1619837284088,
+   "exploit_LB_per_round": -7.549488145741634e-13,
+   "exploit_UB_per_round": 9.148493518296164e-13
+  }
+ }
+}

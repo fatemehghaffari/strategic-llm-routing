@@ -1,0 +1,6 @@
+eps=0.2 n=40000 L=2648 s=0.0913  4s<=1/2: True
+pathwise identical logs (P1,S*) vs (P2,sigma~): 30/30
+max |u_W(P1,S*) - u_W(P2,sigma~)| pathwise: 0.000e+00
+max |G + P - D| pathwise: 3.179e-09
+mean G = -808.6, mean P = 2480.7, mean D = 1672.0, eps n/4 = 2000.0, (1/2-2s) eps n/2 = 1269.3
+P(W switched at label a): P1 1.000, P2 0.000

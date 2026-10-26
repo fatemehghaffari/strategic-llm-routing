@@ -1,0 +1,131 @@
+{
+ "instance": "K3_gap0.25_honNT_muLow_focTop",
+ "alias": "unique_top",
+ "n": 2000,
+ "bids": [
+  0.9,
+  0.0,
+  0.4
+ ],
+ "tag": "coal",
+ "mu": [
+  0.1,
+  0.2,
+  0.35
+ ],
+ "M": [
+  0.9,
+  0.65,
+  0.4
+ ],
+ "honest": [
+  2
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.65,
+ "M_top": 0.9,
+ "revenue": {
+  "revenue_LB": 605.4965124828776,
+  "revenue_UB": 605.4965124828776,
+  "revenue_LB_per_round": 0.3027482562414388,
+  "revenue_UB_per_round": 0.3027482562414388
+ },
+ "agents": {
+  "0": {
+   "instance": "K3_gap0.25_honNT_muLow_focTop",
+   "alias": "unique_top",
+   "n": 2000,
+   "K": 3,
+   "agent": 0,
+   "bids": [
+    0.9,
+    0.0,
+    0.4
+   ],
+   "honest_agent": false,
+   "L": 326,
+   "N": 1022,
+   "s_n": 0.22221476273689672,
+   "M_i": 0.9,
+   "mu_i": 0.1,
+   "V_i": 0.65,
+   "P_win": 0.9999999999999992,
+   "dropped_mass": 2.2514740887215534e-13,
+   "base_LB": 1007.7034875168694,
+   "base_UB": 1007.70348751777,
+   "V_F0": 1268.6802843813512,
+   "V_FUB": 1289.1161902129722,
+   "exploit_LB": 260.97679686358117,
+   "exploit_UB": 281.4127026961029,
+   "L_n": 326,
+   "theorem_constant_top": 928.844495475156,
+   "seconds": 5.817317008972168,
+   "exploit_LB_per_round": 0.13048839843179058,
+   "exploit_UB_per_round": 0.14070635134805143
+  },
+  "1": {
+   "instance": "K3_gap0.25_honNT_muLow_focTop",
+   "alias": "unique_top",
+   "n": 2000,
+   "K": 3,
+   "agent": 1,
+   "bids": [
+    0.9,
+    0.0,
+    0.4
+   ],
+   "honest_agent": false,
+   "L": 326,
+   "N": 1022,
+   "s_n": 0.22221476273689672,
+   "M_i": 0.65,
+   "mu_i": 0.2,
+   "V_i": 0.9,
+   "P_win": 0.0,
+   "dropped_mass": 1.429310189282523e-13,
+   "base_LB": 391.2,
+   "base_UB": 391.200000000613,
+   "V_F0": 391.1999999999977,
+   "V_FUB": 391.20000000061077,
+   "exploit_LB": -6.15273165749386e-10,
+   "exploit_UB": 6.107825356593821e-10,
+   "L_n": 326,
+   "theorem_constant_top": 928.844495475156,
+   "seconds": 3.719348907470703,
+   "exploit_LB_per_round": -3.0763658287469297e-13,
+   "exploit_UB_per_round": 3.0539126782969104e-13
+  },
+  "2": {
+   "instance": "K3_gap0.25_honNT_muLow_focTop",
+   "alias": "unique_top",
+   "n": 2000,
+   "K": 3,
+   "agent": 2,
+   "bids": [
+    0.9,
+    0.0,
+    0.4
+   ],
+   "honest_agent": true,
+   "L": 326,
+   "N": 1022,
+   "s_n": 0.22221476273689672,
+   "M_i": 0.4,
+   "mu_i": 0.35,
+   "V_i": 0.9,
+   "P_win": 5.891446528436531e-50,
+   "dropped_mass": 1.429310189282523e-13,
+   "base_LB": 309.70000000000005,
+   "base_UB": 309.70000000061304,
+   "V_F0": 326.0,
+   "V_FUB": 326.00000000061306,
+   "exploit_LB": 16.299999999386955,
+   "exploit_UB": 16.30000000061301,
+   "L_n": 326,
+   "theorem_constant_top": 928.844495475156,
+   "seconds": 3.6974596977233887,
+   "exploit_LB_per_round": 0.008149999999693477,
+   "exploit_UB_per_round": 0.008150000000306506
+  }
+ }
+}

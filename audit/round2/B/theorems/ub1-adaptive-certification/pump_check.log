@@ -1,0 +1,36 @@
+c*=0.6 mu1=0.2 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.598 R'=3729 R2=2054 u_base=4353 u_dev=4065 gain=-288 (se 18) gain/n=-0.0288 pred/n=0.0409
+c*=0.6 mu1=0.2 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.600 R'=11855 R2=6486 u_base=13595 u_dev=12468 gain=-1127 (se 37) gain/n=-0.0356 pred/n=0.0409
+c*=0.6 mu1=0.2 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.599 R'=37415 R2=20481 u_base=42314 u_dev=38613 gain=-3701 (se 53) gain/n=-0.0370 pred/n=0.0409
+c*=0.7 mu1=0.2 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.700 R'=5843 R2=2054 u_base=4353 u_dev=4675 gain=322 (se 18) gain/n=0.0322 pred/n=0.0409
+c*=0.7 mu1=0.2 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.700 R'=18479 R2=6486 u_base=13595 u_dev=14138 gain=543 (se 39) gain/n=0.0172 pred/n=0.0409
+c*=0.7 mu1=0.2 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.700 R'=58280 R2=20481 u_base=42314 u_dev=43432 gain=1118 (se 60) gain/n=0.0112 pred/n=0.0409
+c*=0.75 mu1=0.2 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.749 R'=7130 R2=2054 u_base=4353 u_dev=4959 gain=606 (se 15) gain/n=0.0606 pred/n=0.0409
+c*=0.75 mu1=0.2 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.751 R'=23245 R2=6486 u_base=13595 u_dev=15201 gain=1605 (se 34) gain/n=0.0508 pred/n=0.0409
+c*=0.75 mu1=0.2 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.750 R'=74274 R2=20481 u_base=42314 u_dev=46955 gain=4641 (se 53) gain/n=0.0464 pred/n=0.0409
+c*=0.8 mu1=0.2 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.767 R'=7131 R2=2054 u_base=4353 u_dev=4784 gain=431 (se 17) gain/n=0.0431 pred/n=0.0409
+c*=0.8 mu1=0.2 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.800 R'=23308 R2=6486 u_base=13595 u_dev=13679 gain=84 (se 37) gain/n=0.0026 pred/n=0.0409
+c*=0.8 mu1=0.2 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.800 R'=74543 R2=20481 u_base=42314 u_dev=42087 gain=-227 (se 59) gain/n=-0.0023 pred/n=0.0409
+c*=0.6 mu1=0.0 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.598 R'=3729 R2=2054 u_base=3264 u_dev=2819 gain=-445 (se 14) gain/n=-0.0445 pred/n=-0.0500
+c*=0.6 mu1=0.0 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.600 R'=11855 R2=6486 u_base=10149 u_dev=8516 gain=-1633 (se 30) gain/n=-0.0516 pred/n=-0.0500
+c*=0.6 mu1=0.0 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.599 R'=37415 R2=20481 u_base=31410 u_dev=26130 gain=-5281 (se 44) gain/n=-0.0528 pred/n=-0.0500
+c*=0.7 mu1=0.0 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.700 R'=5843 R2=2054 u_base=3264 u_dev=3007 gain=-257 (se 14) gain/n=-0.0257 pred/n=-0.0500
+c*=0.7 mu1=0.0 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.700 R'=18479 R2=6486 u_base=10149 u_dev=8861 gain=-1288 (se 30) gain/n=-0.0407 pred/n=-0.0500
+c*=0.7 mu1=0.0 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.700 R'=58280 R2=20481 u_base=31410 u_dev=26776 gain=-4634 (se 45) gain/n=-0.0463 pred/n=-0.0500
+c*=0.75 mu1=0.0 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.749 R'=7130 R2=2054 u_base=3264 u_dev=3033 gain=-231 (se 13) gain/n=-0.0231 pred/n=-0.0500
+c*=0.75 mu1=0.0 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.751 R'=23245 R2=6486 u_base=10149 u_dev=8971 gain=-1178 (se 30) gain/n=-0.0373 pred/n=-0.0500
+c*=0.75 mu1=0.0 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.750 R'=74274 R2=20481 u_base=31410 u_dev=27100 gain=-4310 (se 47) gain/n=-0.0431 pred/n=-0.0500
+c*=0.8 mu1=0.0 M1=0.9 M2=0.45 n= 10000 Tc*=372 lost=1.00 Tc2=369 beta'=0.767 R'=7131 R2=2054 u_base=3264 u_dev=2858 gain=-406 (se 17) gain/n=-0.0406 pred/n=-0.0500
+c*=0.8 mu1=0.0 M1=0.9 M2=0.45 n= 31623 Tc*=415 lost=1.00 Tc2=410 beta'=0.800 R'=23308 R2=6486 u_base=10149 u_dev=7436 gain=-2712 (se 32) gain/n=-0.0858 pred/n=-0.0500
+c*=0.8 mu1=0.0 M1=0.9 M2=0.45 n=100000 Tc*=472 lost=1.00 Tc2=457 beta'=0.800 R'=74543 R2=20481 u_base=31410 u_dev=22179 gain=-9231 (se 53) gain/n=-0.0923 pred/n=-0.0500
+c*=0.6 mu1=0.1 M1=0.9 M2=0.5 n= 10000 Tc*=463 lost=1.00 Tc2=301 beta'=0.599 R'=3738 R2=2498 u_base=3211 u_dev=3445 gain=234 (se 16) gain/n=0.0234 pred/n=0.0500
+c*=0.6 mu1=0.1 M1=0.9 M2=0.5 n= 31623 Tc*=529 lost=1.00 Tc2=333 beta'=0.600 R'=11868 R2=7916 u_base=10054 u_dev=10496 gain=442 (se 36) gain/n=0.0140 pred/n=0.0500
+c*=0.6 mu1=0.1 M1=0.9 M2=0.5 n=100000 Tc*=590 lost=1.00 Tc2=368 beta'=0.599 R'=37415 R2=25051 u_base=31219 u_dev=32371 gain=1152 (se 48) gain/n=0.0115 pred/n=0.0500
+c*=0.7 mu1=0.1 M1=0.9 M2=0.5 n= 10000 Tc*=463 lost=1.00 Tc2=301 beta'=0.699 R'=5818 R2=2498 u_base=3211 u_dev=3834 gain=623 (se 16) gain/n=0.0623 pred/n=0.0500
+c*=0.7 mu1=0.1 M1=0.9 M2=0.5 n= 31623 Tc*=529 lost=1.00 Tc2=333 beta'=0.700 R'=18475 R2=7916 u_base=10054 u_dev=11499 gain=1444 (se 37) gain/n=0.0457 pred/n=0.0500
+c*=0.7 mu1=0.1 M1=0.9 M2=0.5 n=100000 Tc*=590 lost=1.00 Tc2=368 beta'=0.700 R'=58272 R2=25051 u_base=31219 u_dev=35103 gain=3883 (se 52) gain/n=0.0388 pred/n=0.0500
+c*=0.75 mu1=0.1 M1=0.9 M2=0.5 n= 10000 Tc*=463 lost=1.00 Tc2=301 beta'=0.751 R'=7193 R2=2498 u_base=3211 u_dev=4011 gain=800 (se 16) gain/n=0.0800 pred/n=0.0500
+c*=0.75 mu1=0.1 M1=0.9 M2=0.5 n= 31623 Tc*=529 lost=1.00 Tc2=333 beta'=0.751 R'=23295 R2=7916 u_base=10054 u_dev=12107 gain=2052 (se 33) gain/n=0.0649 pred/n=0.0500
+c*=0.75 mu1=0.1 M1=0.9 M2=0.5 n=100000 Tc*=590 lost=1.00 Tc2=368 beta'=0.750 R'=74339 R2=25051 u_base=31219 u_dev=37055 gain=5835 (se 47) gain/n=0.0584 pred/n=0.0500
+c*=0.8 mu1=0.1 M1=0.9 M2=0.5 n= 10000 Tc*=463 lost=1.00 Tc2=301 beta'=0.791 R'=7199 R2=2498 u_base=3211 u_dev=3626 gain=415 (se 14) gain/n=0.0415 pred/n=0.0500
+c*=0.8 mu1=0.1 M1=0.9 M2=0.5 n= 31623 Tc*=529 lost=1.00 Tc2=333 beta'=0.801 R'=23385 R2=7916 u_base=10054 u_dev=10581 gain=527 (se 35) gain/n=0.0167 pred/n=0.0500
+c*=0.8 mu1=0.1 M1=0.9 M2=0.5 n=100000 Tc*=590 lost=1.00 Tc2=368 beta'=0.800 R'=74632 R2=25051 u_base=31219 u_dev=32162 gain=943 (se 55) gain/n=0.0094 pred/n=0.0500

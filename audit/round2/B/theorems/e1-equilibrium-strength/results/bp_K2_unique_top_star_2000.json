@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.25_honNT_muLow_focTop",
+ "alias": "K2_unique_top",
+ "n": 2000,
+ "bids": [
+  0.9,
+  0.65
+ ],
+ "tag": "star",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.9,
+  0.65
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.65,
+ "M_top": 0.9,
+ "revenue": {
+  "revenue_LB": 1083.8466985685131,
+  "revenue_UB": 1083.8466985685275,
+  "revenue_LB_per_round": 0.5419233492842566,
+  "revenue_UB_per_round": 0.5419233492842638
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 2000,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.9,
+    0.65
+   ],
+   "honest_agent": false,
+   "L": 326,
+   "N": 1348,
+   "s_n": 0.2208110544742935,
+   "M_i": 0.9,
+   "mu_i": 0.1,
+   "V_i": 0.65,
+   "P_win": 0.9999999999999999,
+   "dropped_mass": 2.758966067452574e-13,
+   "base_LB": 969.4533014310779,
+   "base_UB": 969.4533014322102,
+   "V_F0": 1169.4263800797596,
+   "V_FUB": 1183.9782079351464,
+   "exploit_LB": 199.9730786475494,
+   "exploit_UB": 214.52490650406855,
+   "L_n": 326,
+   "theorem_constant_top": 839.4241716181432,
+   "seconds": 10.629839181900024,
+   "exploit_LB_per_round": 0.0999865393237747,
+   "exploit_UB_per_round": 0.10726245325203428
+  },
+  "1": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 2000,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.9,
+    0.65
+   ],
+   "honest_agent": true,
+   "L": 326,
+   "N": 1348,
+   "s_n": 0.2208110544742935,
+   "M_i": 0.65,
+   "mu_i": 0.35,
+   "V_i": 0.9,
+   "P_win": 5.824158904391264e-16,
+   "dropped_mass": 1.429310189282523e-13,
+   "base_LB": 228.2000000000006,
+   "base_UB": 228.20000000062788,
+   "V_F0": 326.0,
+   "V_FUB": 326.00000000062727,
+   "exploit_LB": 97.79999999937212,
+   "exploit_UB": 97.80000000062665,
+   "L_n": 326,
+   "theorem_constant_top": 839.4241716181432,
+   "seconds": 6.676199197769165,
+   "exploit_LB_per_round": 0.04889999999968606,
+   "exploit_UB_per_round": 0.048900000000313325
+  }
+ }
+}

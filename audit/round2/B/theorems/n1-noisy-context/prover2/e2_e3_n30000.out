@@ -1,0 +1,24 @@
+
+== E2 top agent 0: n=30000, R=100, L=2168, s=0.0996, Mbar=[0.81 0.69 0.55], dbar_0=-0.1200, 2s=0.1992
+   bound l_i + 1 + b(N) + R_K(n) = 3821   (b(N)=702, R_K=950)
+   baseline S*_N: u=10046.4, win-rate=1.00, any-conviction=0.000, rev/n=0.6102, E Mbar_(2)=0.6900
+   pointwise S* (item-5 rule)   gain=    142.6 +-   161.0   win=1.00 conv=0.400  (2s)
+   shade 0.005                  gain=    117.5 +-     0.1   win=1.00 conv=0.000  (2s)
+   shade 0.02                   gain=    470.0 +-     0.3   win=1.00 conv=0.000  (2s)
+   shade 0.05                   gain=  -3295.0 +-   101.5   win=1.00 conv=1.000  (2s)
+   rider h=0, fallback cap      gain=  -5563.9 +-    43.5   win=1.00 conv=1.000  (2s)
+   rider h=0, fallback low      gain=  -9297.3 +-    40.8   win=1.00 conv=1.000  (2s)
+   rider h=5                    gain=    622.6 +-   100.1   win=1.00 conv=0.030  (2s)
+   rider h=15                   gain=    696.8 +-     8.1   win=1.00 conv=0.000  (2s)
+   all low post-bid             gain=  -9306.1 +-    40.9   win=1.00 conv=1.000  (2s)
+   stage-1 underbid to mid      gain=    130.1 +-     0.3   win=1.00 conv=0.000  (2s)
+   D-learn winner (baseline swap) gain=  -2380.6 +-    15.6   win=1.00 conv=0.000  (2s)
+
+== E3 non-top agent 1, small gap: n=30000, R=100, L=2168, s=0.0996, Mbar=[0.81 0.78 0.55], dbar_1=0.0300, 2s=0.1992
+   bound l_i + 1 + b(N) + R_K(n) = 3821   (b(N)=702, R_K=950)
+   baseline S*_N: u=548.7, win-rate=0.01, any-conviction=0.000, rev/n=0.6885, E Mbar_(2)=0.7800
+   rider h=0, fallback low      gain=    -69.6 +-   136.5   win=0.01 conv=0.010  (2s)
+   rider h=15                   gain=      6.4 +-    12.6   win=0.01 conv=0.000  (2s)
+   all low post-bid             gain=    -69.8 +-   136.7   win=0.01 conv=0.010  (2s)
+   shade 0.02                   gain=      4.7 +-     9.2   win=0.01 conv=0.000  (2s)
+   pointwise S* (item-5 rule)   gain=    -24.9 +-    48.8   win=0.01 conv=0.010  (2s)

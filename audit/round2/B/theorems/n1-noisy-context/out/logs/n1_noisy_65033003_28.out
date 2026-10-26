@@ -1,0 +1,5 @@
+done k6_q50 eps=0.2 iid plmesp:pointwise
+done k6_q50 eps=0.2 iid plmesp:label
+done k6_q50 eps=0.2 iid plmesp:label_learn
+done k6_q50 eps=0.2 iid tol:pointwise
+done k6_q50 eps=0.2 iid tol:label_tol

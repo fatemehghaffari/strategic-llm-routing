@@ -1,0 +1,2 @@
+n,n_triples,spearman_rho_flip_vs_simgap,spearman_p,ols_slope,ols_intercept,ols_r2,mean_sim_gap,frac_sim_gap_positive,mean_compconv_scalar,mean_compconv_contextual,frac_runs_scalar_price_above_cap,spearman_flip_vs_compconv_scalar,spearman_flip_vs_compconv_scalar_p
+3000000,165,0.05492319777900983,0.48351089395149277,-0.00012559260167880872,-0.02387150780763562,3.2180389760205576e-07,-0.023911088506346517,0.4727272727272727,0.536969696969697,0.0,0.6121212121212121,0.27811403548806923,0.00029814844814747576

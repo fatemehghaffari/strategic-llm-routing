@@ -1,0 +1,3 @@
+shot,rows_published,rows_after_dedup,rows_after_dropna,rows_unassigned_family,rows_used,outcomes_used
+0shot,36497,36497,36497,1719,34778,382558
+5shot,36511,36497,36483,1719,34764,382404

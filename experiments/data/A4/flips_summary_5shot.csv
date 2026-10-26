@@ -1,0 +1,2 @@
+raw_flip_rate,raw_comparisons,raw_flips,sig_flip_rate,sig_comparisons,sig_flips,bonf_flip_rate,bonf_comparisons,bonf_flips,n_distinct_best_models,ctx_pairs_with_different_best,ctx_pairs_total,frac_ctx_pairs_different_best,mean_kendall_tau_between_contexts,min_kendall_tau_between_contexts,shot,n_models,n_contexts
+0.3012987012987013,1155,348,0.24703087885985747,842,208,0.2372322899505766,607,144,2,6,21,0.2857142857142857,0.3974025974025974,-0.05454545454545454,5shot,11,7

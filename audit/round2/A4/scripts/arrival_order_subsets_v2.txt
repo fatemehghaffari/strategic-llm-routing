@@ -1,0 +1,10 @@
+k3_q10=Mixtral-8x7B|Claude-Instant-V1|Claude-V1
+k3_q50=Mixtral-8x7B|GPT-4|Mistral-7B
+k3_q90=Mixtral-8x7B|Claude-V1|GPT-3.5
+k4_q10=Mixtral-8x7B|Claude-Instant-V1|CodeLlama-34B|Mistral-7B
+k4_q50=Mixtral-8x7B|Claude-Instant-V1|GPT-3.5|Yi-34B
+k4_q90=Mixtral-8x7B|Claude-Instant-V1|GPT-4|Llama-70B
+k5_q10=Mixtral-8x7B|Claude-V1|Claude-V2|Llama-70B|WizardLM-13B
+k5_q50=Mixtral-8x7B|Claude-V1|GPT-4|Mistral-7B|Yi-34B
+k5_q90=Mixtral-8x7B|Claude-Instant-V1|Claude-V1|Mistral-7B|Yi-34B
+k6_q50=Mixtral-8x7B|Claude-V2|GPT-3.5|GPT-4|Mistral-7B|Yi-34B

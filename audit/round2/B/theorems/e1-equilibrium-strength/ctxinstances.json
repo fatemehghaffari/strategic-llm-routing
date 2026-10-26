@@ -1,0 +1,104 @@
+{
+ "_comment": "Contextual (profile-local) instances for track E1 part 2. Each profile carries its own mu, M and share of the visits; the honest set is the same at all profiles (hypothesis H1 of PROVER2.md). Shares must sum to 1.",
+ "instances": [
+  {
+   "id": "ctx_mixed",
+   "K": 2,
+   "honest": [
+    1
+   ],
+   "profiles": [
+    {
+     "z": "z1_uniquetop",
+     "mu": [
+      0.1,
+      0.35
+     ],
+     "M": [
+      0.9,
+      0.65
+     ],
+     "share": 0.5
+    },
+    {
+     "z": "z2_tiedtop",
+     "mu": [
+      0.1,
+      0.35
+     ],
+     "M": [
+      0.8,
+      0.8
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "id": "ctx_division",
+   "K": 2,
+   "honest": [
+    1
+   ],
+   "profiles": [
+    {
+     "z": "z1_tiedtop",
+     "mu": [
+      0.1,
+      0.35
+     ],
+     "M": [
+      0.8,
+      0.8
+     ],
+     "share": 0.5
+    },
+    {
+     "z": "z2_tiedtop",
+     "mu": [
+      0.1,
+      0.35
+     ],
+     "M": [
+      0.8,
+      0.8
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "id": "ctx_rare",
+   "K": 2,
+   "honest": [
+    1
+   ],
+   "profiles": [
+    {
+     "z": "z1_frequent",
+     "mu": [
+      0.1,
+      0.35
+     ],
+     "M": [
+      0.8,
+      0.8
+     ],
+     "share": 0.75
+    },
+    {
+     "z": "z2_infrequent",
+     "mu": [
+      0.1,
+      0.35
+     ],
+     "M": [
+      0.8,
+      0.8
+     ],
+     "share": 0.25
+    }
+   ]
+  }
+ ]
+}

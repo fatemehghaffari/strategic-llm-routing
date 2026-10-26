@@ -1,0 +1,61 @@
+policy,task_id,benchmark,category,subgroup,split,gold,level,budget,seed,reasoning_tokens,answer_tokens,total_output_tokens,batch_wall_s,est_wall_s,finish_reason,budget_exhausted,truncated,malformed,correct,extraction,pred,think_opened,think_closed
+fixed_all,gsm8k-0007,gsm8k,arithmetic,gsm8k_long,calibration,360,high,2048,0,1150,282,1434,64.6,2.732,stop,False,False,False,True,final_answer_line,360,True,True
+fixed_all,math500-0206,math500,competition_math,math_hard,calibration,\begin{pmatrix} 1/5 \\ -18/5 \end{pmatrix},high,2048,0,2048,2046,4096,64.6,7.804,length,True,True,False,False,final_answer_line,is \boxed{\begin{pmatrix} \dfrac{1}{5} \\ -,True,True
+fixed_all,math500-0201,math500,competition_math,math_easy,calibration,12,high,2048,0,2048,299,2349,64.6,4.475,stop,True,False,False,True,final_answer_line,12 cm.,True,True
+fixed_all,gsm8k-0008,gsm8k,arithmetic,gsm8k_short,calibration,79,high,2048,0,654,160,816,64.6,1.555,stop,False,False,False,True,final_answer_line,79,True,True
+fixed_all,gsm8k-0000,gsm8k,arithmetic,gsm8k_short,calibration,100,high,2048,0,335,158,495,64.6,0.943,stop,False,False,False,True,final_answer_line,100 pounds.,True,True
+fixed_all,gsm8k-0001,gsm8k,arithmetic,gsm8k_short,calibration,10,high,2048,0,459,166,627,64.6,1.195,stop,False,False,False,True,final_answer_line,10,True,True
+fixed_all,gsm8k-0002,gsm8k,arithmetic,gsm8k_short,calibration,398,high,2048,0,1567,215,1784,64.6,3.399,stop,False,False,False,True,final_answer_line,398,True,True
+fixed_all,gsm8k-0004,gsm8k,arithmetic,gsm8k_long,calibration,450,high,2048,0,978,193,1173,64.6,2.235,stop,False,False,False,True,final_answer_line,450,True,True
+fixed_all,math500-0203,math500,competition_math,math_medium,calibration,30,high,2048,0,2048,810,2860,64.6,5.449,stop,True,False,False,True,final_answer_boxed,30,True,True
+fixed_all,math500-0200,math500,competition_math,math_easy,calibration,4,high,2048,0,573,215,790,64.6,1.505,stop,False,False,False,True,final_answer_boxed,4,True,True
+fixed_all,gsm8k-0003,gsm8k,arithmetic,gsm8k_long,calibration,3,high,2048,0,773,131,906,64.6,1.726,stop,False,False,False,True,final_answer_line,3.00.,True,True
+fixed_all,math500-0202,math500,competition_math,math_medium,calibration,6,high,2048,0,2048,710,2760,64.6,5.258,stop,True,False,False,True,final_answer_boxed,6,True,True
+fixed_all,math500-0208,math500,competition_math,math_hard,calibration,\frac{13}{18},high,2048,0,1863,563,2428,64.6,4.626,stop,False,False,False,True,final_answer_boxed,\dfrac{13}{18},True,True
+fixed_all,gsm8k-0005,gsm8k,arithmetic,gsm8k_short,calibration,16,high,2048,0,643,220,865,64.6,1.648,stop,False,False,False,True,final_answer_boxed,16,True,True
+fixed_all,math500-0204,math500,competition_math,math_medium,calibration,2,high,2048,0,1274,364,1640,64.6,3.125,stop,False,False,False,True,final_answer_boxed,2,True,True
+fixed_all,gsm8k-0006,gsm8k,arithmetic,gsm8k_long,calibration,50,high,2048,0,2048,443,2493,64.6,4.75,stop,True,False,False,True,final_answer_boxed,50,True,True
+fixed_all,gsm8k-0009,gsm8k,arithmetic,gsm8k_short,calibration,40,high,2048,0,823,232,1057,64.6,2.014,stop,False,False,False,True,final_answer_line,40,True,True
+fixed_all,math500-0209,math500,competition_math,math_hard,calibration,2107,high,2048,0,2048,436,2486,64.6,4.736,stop,True,False,False,True,final_answer_boxed,2107,True,True
+fixed_all,math500-0207,math500,competition_math,math_easy,calibration,7,high,2048,0,873,392,1267,64.6,2.414,stop,False,False,False,True,final_answer_boxed,7,True,True
+fixed_all,math500-0205,math500,competition_math,math_easy,calibration,4005,high,2048,0,1245,336,1583,64.6,3.016,stop,False,False,False,True,final_answer_boxed,4005,True,True
+fixed_all,math500-0207,math500,competition_math,math_easy,calibration,7,low,128,0,128,290,420,56.44,1.56,stop,True,False,False,True,final_answer_boxed,7,True,True
+fixed_all,gsm8k-0009,gsm8k,arithmetic,gsm8k_short,calibration,40,low,128,0,128,172,302,56.44,1.122,stop,True,False,False,True,final_answer_line,40,True,True
+fixed_all,math500-0206,math500,competition_math,math_hard,calibration,\begin{pmatrix} 1/5 \\ -18/5 \end{pmatrix},low,128,0,128,1544,1674,56.44,6.219,stop,True,False,False,True,final_answer_boxed,\begin{pmatrix} \frac{1}{5} \\ -\frac{18}{5} \end{pmatrix},True,True
+fixed_all,gsm8k-0001,gsm8k,arithmetic,gsm8k_short,calibration,10,low,128,0,128,89,219,56.44,0.814,stop,True,False,False,True,final_answer_line,10,True,True
+fixed_all,gsm8k-0003,gsm8k,arithmetic,gsm8k_long,calibration,3,low,128,0,128,988,1118,56.44,4.153,stop,True,False,False,True,final_answer_line,3,True,True
+fixed_all,math500-0208,math500,competition_math,math_hard,calibration,\frac{13}{18},low,128,0,128,467,597,56.44,2.218,stop,True,False,False,True,final_answer_boxed,\frac{13}{18},True,True
+fixed_all,gsm8k-0000,gsm8k,arithmetic,gsm8k_short,calibration,100,low,128,0,128,190,320,56.44,1.189,stop,True,False,False,True,final_answer_line,100 pounds.,True,True
+fixed_all,math500-0200,math500,competition_math,math_easy,calibration,4,low,128,0,128,189,319,56.44,1.185,stop,True,False,False,True,final_answer_line,4,True,True
+fixed_all,math500-0201,math500,competition_math,math_easy,calibration,12,low,128,0,128,261,391,56.44,1.452,stop,True,False,False,True,final_answer_line,12 cm.,True,True
+fixed_all,math500-0204,math500,competition_math,math_medium,calibration,2,low,128,0,128,328,458,56.44,1.701,stop,True,False,False,True,final_answer_line,2,True,True
+fixed_all,gsm8k-0002,gsm8k,arithmetic,gsm8k_short,calibration,398,low,128,0,128,189,319,56.44,1.185,stop,True,False,False,True,final_answer_line,398,True,True
+fixed_all,math500-0202,math500,competition_math,math_medium,calibration,6,low,128,0,128,3966,4096,56.44,15.216,length,True,True,False,True,last_number,6.,True,True
+fixed_all,gsm8k-0004,gsm8k,arithmetic,gsm8k_long,calibration,450,low,128,0,128,184,314,56.44,1.166,stop,True,False,False,True,final_answer_line,450,True,True
+fixed_all,math500-0209,math500,competition_math,math_hard,calibration,2107,low,128,0,128,1759,1889,56.44,7.017,stop,True,False,False,True,final_answer_line,2107.,True,True
+fixed_all,math500-0203,math500,competition_math,math_medium,calibration,30,low,128,0,128,395,525,56.44,1.95,stop,True,False,False,True,final_answer_boxed,30,True,True
+fixed_all,math500-0205,math500,competition_math,math_easy,calibration,4005,low,128,0,128,208,338,56.44,1.256,stop,True,False,False,True,final_answer_line,4005,True,True
+fixed_all,gsm8k-0007,gsm8k,arithmetic,gsm8k_long,calibration,360,low,128,0,128,232,362,56.44,1.345,stop,True,False,False,True,final_answer_line,360,True,True
+fixed_all,gsm8k-0005,gsm8k,arithmetic,gsm8k_short,calibration,16,low,128,0,128,163,293,56.44,1.088,stop,True,False,False,True,final_answer_line,16.,True,True
+fixed_all,gsm8k-0006,gsm8k,arithmetic,gsm8k_long,calibration,50,low,128,0,128,354,484,56.44,1.798,stop,True,False,False,True,final_answer_line,50,True,True
+fixed_all,gsm8k-0008,gsm8k,arithmetic,gsm8k_short,calibration,79,low,128,0,128,626,756,56.44,2.808,stop,True,False,False,True,final_answer_line,79,True,True
+fixed_all,gsm8k-0002,gsm8k,arithmetic,gsm8k_short,calibration,398,medium,512,0,512,182,696,60.62,1.825,stop,True,False,False,True,final_answer_line,398,True,True
+fixed_all,math500-0204,math500,competition_math,math_medium,calibration,2,medium,512,0,512,322,836,60.62,2.193,stop,True,False,False,True,boxed,2,True,True
+fixed_all,math500-0203,math500,competition_math,math_medium,calibration,30,medium,512,0,512,1730,2244,60.62,5.886,stop,True,False,False,True,final_answer_boxed,30,True,True
+fixed_all,gsm8k-0008,gsm8k,arithmetic,gsm8k_short,calibration,79,medium,512,0,512,180,694,60.62,1.82,stop,True,False,False,True,final_answer_line,79,True,True
+fixed_all,math500-0209,math500,competition_math,math_hard,calibration,2107,medium,512,0,512,535,1049,60.62,2.751,stop,True,False,False,True,final_answer_boxed,2107,True,True
+fixed_all,math500-0207,math500,competition_math,math_easy,calibration,7,medium,512,0,512,374,888,60.62,2.329,stop,True,False,False,True,final_answer_boxed,7,True,True
+fixed_all,math500-0205,math500,competition_math,math_easy,calibration,4005,medium,512,0,512,116,630,60.62,1.652,stop,True,False,False,True,final_answer_line,4005.,True,True
+fixed_all,gsm8k-0001,gsm8k,arithmetic,gsm8k_short,calibration,10,medium,512,0,395,100,497,60.62,1.304,stop,False,False,False,True,final_answer_line,10,True,True
+fixed_all,gsm8k-0007,gsm8k,arithmetic,gsm8k_long,calibration,360,medium,512,0,512,270,784,60.62,2.056,stop,True,False,False,True,final_answer_line,360,True,True
+fixed_all,gsm8k-0009,gsm8k,arithmetic,gsm8k_short,calibration,40,medium,512,0,512,209,723,60.62,1.896,stop,True,False,False,True,final_answer_boxed,40,True,True
+fixed_all,math500-0208,math500,competition_math,math_hard,calibration,\frac{13}{18},medium,512,0,512,411,925,60.62,2.426,stop,True,False,False,True,final_answer_boxed,\frac{13}{18},True,True
+fixed_all,math500-0206,math500,competition_math,math_hard,calibration,\begin{pmatrix} 1/5 \\ -18/5 \end{pmatrix},medium,512,0,512,3582,4096,60.62,10.743,length,True,True,False,False,last_number,0,True,True
+fixed_all,gsm8k-0003,gsm8k,arithmetic,gsm8k_long,calibration,3,medium,512,0,512,153,667,60.62,1.749,stop,True,False,False,True,final_answer_line,3.00.,True,True
+fixed_all,math500-0200,math500,competition_math,math_easy,calibration,4,medium,512,0,512,306,820,60.62,2.151,stop,True,False,False,True,final_answer_boxed,4,True,True
+fixed_all,gsm8k-0006,gsm8k,arithmetic,gsm8k_long,calibration,50,medium,512,0,512,387,901,60.62,2.363,stop,True,False,False,True,final_answer_boxed,50,True,True
+fixed_all,math500-0201,math500,competition_math,math_easy,calibration,12,medium,512,0,512,140,654,60.62,1.715,stop,True,False,False,True,final_answer_boxed,12,True,True
+fixed_all,gsm8k-0000,gsm8k,arithmetic,gsm8k_short,calibration,100,medium,512,0,335,158,495,60.62,1.298,stop,False,False,False,True,final_answer_line,100 pounds.,True,True
+fixed_all,gsm8k-0005,gsm8k,arithmetic,gsm8k_short,calibration,16,medium,512,0,512,205,719,60.62,1.886,stop,True,False,False,True,final_answer_boxed,16,True,True
+fixed_all,gsm8k-0004,gsm8k,arithmetic,gsm8k_long,calibration,450,medium,512,0,512,185,699,60.62,1.833,stop,True,False,False,True,final_answer_line,450,True,True
+fixed_all,math500-0202,math500,competition_math,math_medium,calibration,6,medium,512,0,512,3582,4096,60.62,10.743,length,True,True,False,False,last_number,24,True,True

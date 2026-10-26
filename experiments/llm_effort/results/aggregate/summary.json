@@ -1,0 +1,17 @@
+{
+ "n_questions": 300,
+ "n_generations": 2700,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "checkpoint": "Qwen/Qwen3-4B",
+ "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "policy_generations": 4500,
+ "policy_seeds": [
+  0,
+  1,
+  2
+ ]
+}

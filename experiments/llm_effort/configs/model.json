@@ -1,0 +1,27 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "hf_home": "<workspace>/llm_effort/hf",
+  "serving": {
+    "engine": "vllm",
+    "version": "0.32.0",
+    "reasoning_parser": "qwen3",
+    "dtype": "bfloat16",
+    "max_model_len": 12288,
+    "gpu_memory_utilization": 0.9,
+    "enforce_eager": true
+  },
+  "customer_visible": {
+    "service_tier": "standard",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "max_tokens_total": 7936,
+    "system_prompt": "Solve the problem. End with the final answer in the form: Final answer: <answer>."
+  },
+  "backend_budgets": {
+    "low": 128,
+    "medium": 512,
+    "high": 2048
+  }
+}

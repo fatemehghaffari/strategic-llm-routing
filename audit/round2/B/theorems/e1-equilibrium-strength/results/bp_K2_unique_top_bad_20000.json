@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.25_honNT_muLow_focTop",
+ "alias": "K2_unique_top",
+ "n": 20000,
+ "bids": [
+  0.7,
+  0.35
+ ],
+ "tag": "bad",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.9,
+  0.65
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.65,
+ "M_top": 0.9,
+ "revenue": {
+  "revenue_LB": 5697.768519868462,
+  "revenue_UB": 5697.768519868462,
+  "revenue_LB_per_round": 0.2848884259934231,
+  "revenue_UB_per_round": 0.2848884259934231
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 20000,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.7,
+    0.35
+   ],
+   "honest_agent": false,
+   "L": 1634,
+   "N": 16732,
+   "s_n": 0.112008814255893,
+   "M_i": 0.9,
+   "mu_i": 0.1,
+   "V_i": 0.65,
+   "P_win": 0.9999999999999997,
+   "dropped_mass": 4.842836865294388e-13,
+   "base_LB": 15076.731480122618,
+   "base_UB": 15076.73148014199,
+   "V_F0": 16158.188869624153,
+   "V_FUB": 16168.622705642909,
+   "exploit_LB": 1081.4573894821624,
+   "exploit_UB": 1091.8912255202904,
+   "L_n": 1634,
+   "theorem_constant_top": 3406.0627714724524,
+   "seconds": 743.2519917488098,
+   "exploit_LB_per_round": 0.054072869474108116,
+   "exploit_UB_per_round": 0.05459456127601452
+  },
+  "1": {
+   "instance": "K2_gap0.25_honNT_muLow_focTop",
+   "alias": "K2_unique_top",
+   "n": 20000,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.7,
+    0.35
+   ],
+   "honest_agent": true,
+   "L": 1634,
+   "N": 16732,
+   "s_n": 0.112008814255893,
+   "M_i": 0.65,
+   "mu_i": 0.35,
+   "V_i": 0.9,
+   "P_win": 1.9088793593896028e-95,
+   "dropped_mass": 5.961918202428707e-13,
+   "base_LB": 1634.0,
+   "base_UB": 1634.000000023848,
+   "V_F0": 1634.0,
+   "V_FUB": 1634.0000000238483,
+   "exploit_LB": -2.3848087948863395e-08,
+   "exploit_UB": 2.3848315322538838e-08,
+   "L_n": 1634,
+   "theorem_constant_top": 3406.0627714724524,
+   "seconds": 737.7404747009277,
+   "exploit_LB_per_round": -1.1924043974431697e-12,
+   "exploit_UB_per_round": 1.1924157661269419e-12
+  }
+ }
+}

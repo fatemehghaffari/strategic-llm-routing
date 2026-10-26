@@ -1,0 +1,12 @@
+E0 random (20000 instances):
+  max loss/eps           = 0.7432   (bound 1)
+  max loss/BayesErr      = 0.8483   (bound 1)
+  max loss - omega'*eps  = 2.22e-16 (bound 0)
+  omega' > omega+omega_2 : 0 cases (should be 0)
+  max honest loss/eps    = 0.7523   (bound 1)
+E0 tight eps=0.05: M_(2) loss = 0.0500, honest loss = 0.0500 (both should equal eps)
+E0 tight eps=0.1: M_(2) loss = 0.1000, honest loss = 0.1000 (both should equal eps)
+E0 tight eps=0.2: M_(2) loss = 0.2000, honest loss = 0.2000 (both should equal eps)
+E0 tight eps=0.4: M_(2) loss = 0.4000, honest loss = 0.4000 (both should equal eps)
+E1 water-fill minus SLSQP optimum, max over 400: 1.11e-11 (should be <= ~1e-8)
+E1 honest counterexample: water-fill [0.9 0.1], pointwise rule [0.9 0.5]

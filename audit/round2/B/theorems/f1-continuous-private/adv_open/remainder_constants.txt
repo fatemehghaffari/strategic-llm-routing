@@ -1,0 +1,10 @@
+d= 1: n with J_n<=n but J_n>2n/3 (range, count): None;  n_1(d)=2^(d(d+3)/3)=2.5
+d= 2: n with J_n<=n but J_n>2n/3 (range, count): (4, 5, 2);  n_1(d)=2^(d(d+3)/3)=10.1
+d= 3: n with J_n<=n but J_n>2n/3 (range, count): (8, 11, 4);  n_1(d)=2^(d(d+3)/3)=64.0
+d= 4: n with J_n<=n but J_n>2n/3 (range, count): (16, 23, 8);  n_1(d)=2^(d(d+3)/3)=645.1
+d= 5: n with J_n<=n but J_n>2n/3 (range, count): (32, 364, 124);  n_1(d)=2^(d(d+3)/3)=10321.3
+d= 6: n with J_n<=n but J_n>2n/3 (range, count): (64, 1093, 397);  n_1(d)=2^(d(d+3)/3)=262144.0
+d= 7: n with J_n<=n but J_n>2n/3 (range, count): (128, 3280, 1158);  n_1(d)=2^(d(d+3)/3)=10568983.8
+d= 8: n with J_n<=n but J_n>2n/3 (range, count): (256, 9841, 3409);  n_1(d)=2^(d(d+3)/3)=676414963.1
+d= 9: n with J_n<=n but J_n>2n/3 (range, count): (512, 29524, 10098);  n_1(d)=2^(d(d+3)/3)=68719476736.0
+d=10: n with J_n<=n but J_n>2n/3 (range, count): (1024, 88573, 30037);  n_1(d)=2^(d(d+3)/3)=11082382755513.3

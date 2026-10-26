@@ -1,0 +1,70 @@
+
+== MESP ==
+      n   rev/n bench2 benchH    Tw    tau |  best all   /round best elic   /round best prim  best ag2   /round
+  10000  0.2103   0.30   0.10  1007  0.162 |     380.7  0.03807     151.2  0.01512     380.7     201.4  0.02014
+        best all: P-track(m=3.0) (se 2.4); best elic: E-late(c=0.3,f=0.75) (se 0.0); best prim: P-track(m=3.0) (se 2.4); best ag2: E-const(0.10) (se 0.0)
+  17783  0.2201   0.30   0.10  1506  0.183 |     540.2  0.03038     226.0  0.01271     540.2     301.2  0.01694
+        best all: P-track(m=3.0) (se 3.6); best elic: E-late(c=0.3,f=0.75) (se 0.0); best prim: P-track(m=3.0) (se 3.6); best ag2: E-const(0.10) (se 0.0)
+  31623  0.2309   0.30   0.10  2249  0.203 |     542.5  0.01716     359.8  0.01138     542.5     449.8  0.01422
+        best all: P-shade(d=0.02) (se 0.0); best elic: E-const(0.34) (se 0.0); best prim: P-shade(d=0.02) (se 0.0); best ag2: E-const(0.10) (se 0.0)
+  56234  0.2392   0.30   0.10  3355  0.217 |     558.1  0.00992     536.8  0.00955     558.1     671.0  0.01193
+        best all: P-shade(d=0.02) (se 81.3); best elic: E-const(0.34) (se 0.0); best prim: P-shade(d=0.02) (se 81.3); best ag2: E-const(0.10) (se 0.0)
+ 100000  0.2482   0.30   0.10  5002  0.231 |     900.0  0.00900     800.3  0.00800     900.0    1000.4  0.01000
+        best all: P-shade(d=0.01) (se 0.0); best elic: E-const(0.34) (se 0.0); best prim: P-shade(d=0.01) (se 0.0); best ag2: E-const(0.10) (se 0.0)
+  log-log slope vs n: best-all 0.305 | best-elicitation 0.729 | best-primary 0.305 | best-agent2 0.696
+  revenue shortfall per round (bench2 - rev/n): 0.0897 0.0799 0.0691 0.0608 0.0518  slope of total shortfall vs n: 0.762
+  elicitation-family gains by n (E-const best c, E-late best, E-earlyhigh best, E-pace best, become-loser best):
+   n=  10000: E-const(0.36)=141; E-late(c=0.3,f=0.75)=151; E-earlyhigh(f=0.25)=151; E-pace(d=0.05)=0; become-loser(c=0.28)=-4969
+   n=  17783: E-const(0.36)=211; E-late(c=0.3,f=0.75)=226; E-earlyhigh(f=0.25)=226; E-pace(d=0.05)=33; become-loser(c=0.28)=-10134
+   n=  31623: E-const(0.34)=360; E-late(c=0.3,f=0.75)=337; E-earlyhigh(f=0.25)=337; E-pace(d=0.05)=128; become-loser(c=0.28)=-19587
+   n=  56234: E-const(0.34)=537; E-late(c=0.3,f=0.75)=503; E-earlyhigh(f=0.25)=503; E-pace(d=0.05)=290; become-loser(c=0.0)=-37082
+   n= 100000: E-const(0.34)=800; E-late(c=0.3,f=0.75)=750; E-earlyhigh(f=0.25)=750; E-pace(d=0.05)=567; become-loser(c=0.0)=-66681
+
+== ACM ==
+      n   rev/n bench2 benchH    Tw    tau |  best all   /round best elic   /round best prim  best ag2   /round
+  10000  0.2867   0.30   0.10  1838  0.212 |     282.4  0.02824     250.3  0.02503     282.4      53.2  0.00532
+        best all: P-track(m=3.0) (se 8.5); best elic: E-const(0.32)+P-shade(0.02) (se 39.5); best prim: P-track(m=3.0) (se 8.5); best ag2: R-shade(d=0.05) (se 0.2)
+  17783  0.2792   0.30   0.10  1963  0.233 |     333.9  0.01878     238.7  0.01342     333.9      95.2  0.00535
+        best all: P-track(m=3.0) (se 36.6); best elic: E-const(0.32)+P-shade(0.02) (se 37.3); best prim: P-track(m=3.0) (se 36.6); best ag2: R-shade(d=0.05) (se 0.3)
+  31623  0.2781   0.30   0.10  2095  0.249 |     364.6  0.01153     142.9  0.00452     364.6     169.6  0.00536
+        best all: P-shade(d=0.02) (se 0.7); best elic: E-const(0.32)+P-shade(0.02) (se 67.7); best prim: P-shade(d=0.02) (se 0.7); best ag2: R-shade(d=0.05) (se 0.4)
+  56234  0.2789   0.30   0.10  2196  0.259 |     679.6  0.01209     118.0  0.00210     679.6     286.0  0.00509
+        best all: P-shade(d=0.02) (se 0.8); best elic: E-const(0.32)+P-shade(0.02) (se 10.2); best prim: P-shade(d=0.02) (se 0.8); best ag2: R-shade(d=0.05) (se 8.4)
+ 100000  0.2822   0.30   0.10  2308  0.269 |     619.9  0.00620      11.4  0.00011     619.9     214.0  0.00214
+        best all: P-shade(d=0.01) (se 0.3); best elic: E-const(0.32)+P-shade(0.02) (se 25.5); best prim: P-shade(d=0.01) (se 0.3); best ag2: R-shade(d=0.02) (se 0.3)
+  log-log slope vs n: best-all 0.397 | best-elicitation -1.197 | best-primary 0.397 | best-agent2 0.675
+  revenue shortfall per round (bench2 - rev/n): 0.0133 0.0208 0.0219 0.0211 0.0178  slope of total shortfall vs n: 1.104
+  elicitation-family gains by n (E-const best c, E-late best, E-earlyhigh best, E-pace best, become-loser best):
+   n=  10000: E-const(0.32)+P-shade(0.02)=250; E-late(c=0.3,f=0.75)=183; E-earlyhigh(f=0.25)=183; E-pace(d=0.05)=1; become-loser(c=0.28)=-1859
+   n=  17783: E-const(0.32)+P-shade(0.02)=239; E-late(c=0.3,f=0.75)=3; E-earlyhigh(f=0.25)=3; E-pace(d=0.0)=-77; become-loser(c=0.28)=-3566
+   n=  31623: E-const(0.32)+P-shade(0.02)=143; E-late(c=0.4,f=0.25)=-239; E-earlyhigh(f=0.5)=0; E-pace(d=0.0)=-158; become-loser(c=0.28)=-6684
+   n=  56234: E-const(0.32)+P-shade(0.02)=118; E-late(c=0.4,f=0.25)=-347; E-earlyhigh(f=0.25)=0; E-pace(d=0.0)=-165; become-loser(c=0.28)=-11993
+   n= 100000: E-const(0.32)+P-shade(0.02)=11; E-late(c=0.4,f=0.25)=-504; E-earlyhigh(f=0.25)=0; E-pace(d=0.0)=-264; become-loser(c=0.28)=-21173
+
+Theory reference: MESP L_n (M_1 - 0.3)=0.2 L_n upper envelope of the elicitation underbid; b_n(n)=sqrt(n log(2n^4)/2):
+   n=  10000: L_n= 1007 0.2 L_n=  201.4  b_n(n)=  433.2  ACM 2 ell/gap^2=   1877
+   n=  17783: L_n= 1506 0.2 L_n=  301.2  b_n(n)=  595.2  ACM 2 ell/gap^2=   1992
+   n=  31623: L_n= 2249 0.2 L_n=  449.8  b_n(n)=  816.3  ACM 2 ell/gap^2=   2107
+   n=  56234: L_n= 3355 0.2 L_n=  671.0  b_n(n)= 1117.8  ACM 2 ell/gap^2=   2222
+   n= 100000: L_n= 5002 0.2 L_n= 1000.4  b_n(n)= 1528.8  ACM 2 ell/gap^2=   2337
+
+PURE elicitation-only best gain (no primary component) and slope:
+  MESP n=  10000: E-late(c=0.3,f=0.75)         gain=   151.2 se=  0.0  per round=0.01512
+  MESP n=  17783: E-late(c=0.3,f=0.75)         gain=   226.0 se=  0.0  per round=0.01271
+  MESP n=  31623: E-const(0.34)                gain=   359.8 se=  0.0  per round=0.01138
+  MESP n=  56234: E-const(0.34)                gain=   536.8 se=  0.0  per round=0.00955
+  MESP n= 100000: E-const(0.34)                gain=   800.3 se=  0.0  per round=0.00800
+  MESP slope (positive points only, 5 of 5): 0.729
+  ACM n=  10000: E-const(0.34)                gain=   207.9 se=  7.9  per round=0.02079
+  ACM n=  17783: E-const(0.32)                gain=   100.3 se= 35.9  per round=0.00564
+  ACM n=  31623: E-earlyhigh(f=0.5)           gain=     0.0 se=  0.0  per round=0.00000
+  ACM n=  56234: E-earlyhigh(f=0.25)          gain=     0.0 se=  0.0  per round=0.00000
+  ACM n= 100000: E-earlyhigh(f=0.25)          gain=     0.0 se=  0.0  per round=0.00000
+  ACM slope (positive points only, 2 of 5): -1.266
+
+ACM revenue shortfall decomposition: (n - Tw - L) s(L)  minus  0.2 Tw  (winner over-delivery during certification):
+  n=  10000: predicted     123  observed     133   s-term alone     491
+  n=  17783: predicted     369  observed     370   s-term alone     761
+  n=  31623: predicted     697  observed     692   s-term alone    1116
+  n=  56234: predicted    1150  observed    1186   s-term alone    1589
+  n= 100000: predicted    1761  observed    1785   s-term alone    2223

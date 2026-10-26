@@ -1,0 +1,26 @@
+{
+  "_comment": "Unified scalar instance table (Scout A4 Section 5.2). Parameter-named ids; the five legacy names are aliases with the scalar_incentives parameters. honest lists agent indices; focal is the strategic deviator studied.",
+  "instances": [
+    {"id": "K3_gap0.25_honNT_muLow_focTop", "alias": "unique_top", "mu": [0.10, 0.20, 0.35], "M": [0.90, 0.65, 0.40], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.00_honNT_muLow_focTop", "alias": "tied_top", "mu": [0.10, 0.20, 0.35], "M": [0.80, 0.80, 0.45], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.04_honNT_muMid_focTop", "alias": "near_gap", "mu": [0.10, 0.20, 0.45], "M": [0.80, 0.76, 0.50], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.05_honTop_muHiTop_focRunner", "alias": "honest_top", "mu": [0.75, 0.20, 0.15], "M": [0.75, 0.70, 0.45], "honest": [0], "focal": 1},
+    {"id": "K3_gap0.005_honNT_muMid_focRunner", "alias": "low_gap_nontop", "mu": [0.10, 0.20, 0.45], "M": [0.80, 0.795, 0.50], "honest": [2], "focal": 1},
+    {"id": "K3_gap0.00_honNT_muLow_focTop_M80", "alias": "gap_K3_0.00", "mu": [0.10, 0.20, 0.35], "M": [0.80, 0.80, 0.45], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.01_honNT_muLow_focTop", "alias": "gap_K3_0.01", "mu": [0.10, 0.20, 0.35], "M": [0.80, 0.79, 0.45], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.02_honNT_muLow_focTop", "alias": "gap_K3_0.02", "mu": [0.10, 0.20, 0.35], "M": [0.80, 0.78, 0.45], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.05_honNT_muLow_focTop", "alias": "gap_K3_0.05", "mu": [0.10, 0.20, 0.35], "M": [0.80, 0.75, 0.45], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.10_honNT_muLow_focTop", "alias": "gap_K3_0.10", "mu": [0.10, 0.20, 0.35], "M": [0.80, 0.70, 0.45], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.20_honNT_muLow_focTop", "alias": "gap_K3_0.20", "mu": [0.10, 0.20, 0.35], "M": [0.80, 0.60, 0.45], "honest": [2], "focal": 0},
+    {"id": "K2_gap0.25_honNT_muLow_focTop", "alias": "K2_unique_top", "mu": [0.10, 0.35], "M": [0.90, 0.65], "honest": [1], "focal": 0},
+    {"id": "K2_gap0.00_honNT_muLow_focTop", "alias": "K2_tied_top", "mu": [0.10, 0.35], "M": [0.80, 0.80], "honest": [1], "focal": 0},
+    {"id": "K2_gap0.01_honNT_muLow_focTop", "alias": "gap_K2_0.01", "mu": [0.10, 0.35], "M": [0.80, 0.79], "honest": [1], "focal": 0},
+    {"id": "K2_gap0.02_honNT_muLow_focTop", "alias": "gap_K2_0.02", "mu": [0.10, 0.35], "M": [0.80, 0.78], "honest": [1], "focal": 0},
+    {"id": "K2_gap0.05_honNT_muLow_focTop", "alias": "gap_K2_0.05", "mu": [0.10, 0.35], "M": [0.80, 0.75], "honest": [1], "focal": 0},
+    {"id": "K2_gap0.10_honNT_muLow_focTop", "alias": "gap_K2_0.10", "mu": [0.10, 0.35], "M": [0.80, 0.70], "honest": [1], "focal": 0},
+    {"id": "K2_gap0.20_honNT_muLow_focTop", "alias": "gap_K2_0.20", "mu": [0.10, 0.35], "M": [0.80, 0.60], "honest": [1], "focal": 0},
+    {"id": "K5_gap0.10_honNT_muLow_focTop", "alias": "K5_unique_top", "mu": [0.10, 0.20, 0.20, 0.30, 0.35], "M": [0.90, 0.80, 0.70, 0.55, 0.45], "honest": [4], "focal": 0},
+    {"id": "K3_gap0.25_honNT_muHigh_focTop", "alias": "unique_top_muHigh", "mu": [0.60, 0.60, 0.40], "M": [0.90, 0.65, 0.40], "honest": [2], "focal": 0},
+    {"id": "K3_gap0.25_honNT_muLow_focRunner", "alias": "unique_top_focRunner", "mu": [0.10, 0.20, 0.35], "M": [0.90, 0.65, 0.40], "honest": [2], "focal": 1}
+  ]
+}

@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.00_honNT_muLow_focTop",
+ "alias": "K2_tied_top",
+ "n": 2000,
+ "bids": [
+  0.5,
+  0.5
+ ],
+ "tag": "joint",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.8,
+  0.8
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.8,
+ "M_top": 0.8,
+ "revenue": {
+  "revenue_LB": 739.5470382449179,
+  "revenue_UB": 739.5470382449179,
+  "revenue_LB_per_round": 0.3697735191224589,
+  "revenue_UB_per_round": 0.3697735191224589
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.00_honNT_muLow_focTop",
+   "alias": "K2_tied_top",
+   "n": 2000,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.5,
+    0.5
+   ],
+   "honest_agent": false,
+   "L": 326,
+   "N": 1348,
+   "s_n": 0.2208110544742935,
+   "M_i": 0.8,
+   "mu_i": 0.1,
+   "V_i": 0.8,
+   "P_win": 0.5000000000000002,
+   "dropped_mass": 1.8769447668576742e-13,
+   "base_LB": 759.3530451782618,
+   "base_UB": 759.3530451790126,
+   "V_F0": 1418.3482025729886,
+   "V_FUB": 1426.9094444565008,
+   "exploit_LB": 658.995157393976,
+   "exploit_UB": 667.5563992782389,
+   "L_n": 326,
+   "theorem_constant_top": 839.4241716181432,
+   "seconds": 7.066601514816284,
+   "exploit_LB_per_round": 0.329497578696988,
+   "exploit_UB_per_round": 0.3337781996391195
+  },
+  "1": {
+   "instance": "K2_gap0.00_honNT_muLow_focTop",
+   "alias": "K2_tied_top",
+   "n": 2000,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.5,
+    0.5
+   ],
+   "honest_agent": true,
+   "L": 326,
+   "N": 1348,
+   "s_n": 0.2208110544742935,
+   "M_i": 0.8,
+   "mu_i": 0.35,
+   "V_i": 0.8,
+   "P_win": 0.5000000000000002,
+   "dropped_mass": 1.8769447668576742e-13,
+   "base_LB": 951.0999165764407,
+   "base_UB": 951.0999165771915,
+   "V_F0": 1596.3497545728192,
+   "V_FUB": 1596.3497545735706,
+   "exploit_LB": 645.2498379956277,
+   "exploit_UB": 645.2498379971299,
+   "L_n": 326,
+   "theorem_constant_top": 839.4241716181432,
+   "seconds": 7.076751232147217,
+   "exploit_LB_per_round": 0.3226249189978138,
+   "exploit_UB_per_round": 0.322624918998565
+  }
+ }
+}

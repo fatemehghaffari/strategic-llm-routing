@@ -1,0 +1,57 @@
+n=100000 R=200 L=5002 s=0.0692 2s=0.1383 4s=0.2766 N=84994 b_n(N)=1409 R_K=1729
+
+[noise-free] dbar=0.0050 (<= 2s)  baseline win-rate(agent1)=0.160  PROVER2 bound=8141  paper bound=174990
+   greedy rider h=15, fb low    gain=    226.2 +-    72.2  max=  1663.5  win=0.160  ratio to P2 bound=0.028
+   greedy rider h=0, fb low     gain=  -2283.2 +-   727.0  max=     0.0  win=0.160  ratio to P2 bound=-0.280
+   all low post-bid             gain=  -2284.4 +-   727.4  max=     0.0  win=0.160  ratio to P2 bound=-0.281
+   shade 0.02                   gain=   -305.2 +-   123.8  max=  1699.9  win=0.160  ratio to P2 bound=-0.037
+   zero Stage-1 then rider      gain=   2115.6 +-   751.8  max=  4476.8  win=0.000  ratio to P2 bound=0.260
+
+[noise-free] dbar=0.1333 (<= 2s)  baseline win-rate(agent1)=0.000  PROVER2 bound=8141  paper bound=174990
+   greedy rider h=15, fb low    gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   greedy rider h=0, fb low     gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   all low post-bid             gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   shade 0.02                   gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   zero Stage-1 then rider      gain=   3835.0 +-     0.0  max=  3835.0  win=0.000  ratio to P2 bound=0.471
+
+[noise-free] dbar=0.1433 (> 2s)  baseline win-rate(agent1)=0.000  PROVER2 bound=5002  paper bound=174990
+   greedy rider h=15, fb low    gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   greedy rider h=0, fb low     gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   all low post-bid             gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   shade 0.02                   gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   zero Stage-1 then rider      gain=   3785.0 +-     0.0  max=  3785.0  win=0.000  ratio to P2 bound=0.757
+
+[noise-free] dbar=0.2716 (> 2s)  baseline win-rate(agent1)=0.000  PROVER2 bound=5002  paper bound=174990
+   greedy rider h=15, fb low    gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   greedy rider h=0, fb low     gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   all low post-bid             gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   shade 0.02                   gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   zero Stage-1 then rider      gain=   3143.2 +-     0.0  max=  3143.2  win=0.000  ratio to P2 bound=0.628
+
+[noisy e_b=0.2] dbar=0.0050 (<= 2s)  baseline win-rate(agent1)=0.245  PROVER2 bound=8141  paper bound=174990
+   greedy rider h=15, fb low    gain=    344.7 +-    84.3  max=  1627.7  win=0.245  ratio to P2 bound=0.042
+   greedy rider h=0, fb low     gain=  -5361.0 +-  1307.8  max=     0.0  win=0.245  ratio to P2 bound=-0.658
+   all low post-bid             gain=  -5362.3 +-  1308.1  max=     0.0  win=0.245  ratio to P2 bound=-0.659
+   shade 0.02                   gain=   -885.0 +-   247.3  max=  1699.9  win=0.245  ratio to P2 bound=-0.109
+   zero Stage-1 then rider      gain=  -1459.2 +-  1338.2  max=  4026.6  win=0.000  ratio to P2 bound=-0.179
+
+[noisy e_b=0.2] dbar=0.1333 (<= 2s)  baseline win-rate(agent1)=0.000  PROVER2 bound=8141  paper bound=174990
+   greedy rider h=15, fb low    gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   greedy rider h=0, fb low     gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   all low post-bid             gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   shade 0.02                   gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   zero Stage-1 then rider      gain=   3384.8 +-     0.0  max=  3384.8  win=0.000  ratio to P2 bound=0.416
+
+[noisy e_b=0.2] dbar=0.1433 (> 2s)  baseline win-rate(agent1)=0.000  PROVER2 bound=5002  paper bound=174990
+   greedy rider h=15, fb low    gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   greedy rider h=0, fb low     gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   all low post-bid             gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   shade 0.02                   gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   zero Stage-1 then rider      gain=   3334.8 +-     0.0  max=  3334.8  win=0.000  ratio to P2 bound=0.667
+
+[noisy e_b=0.2] dbar=0.2716 (> 2s)  baseline win-rate(agent1)=0.000  PROVER2 bound=5002  paper bound=174990
+   greedy rider h=15, fb low    gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   greedy rider h=0, fb low     gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   all low post-bid             gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   shade 0.02                   gain=      0.0 +-     0.0  max=     0.0  win=0.000  ratio to P2 bound=0.000
+   zero Stage-1 then rider      gain=   2693.0 +-     0.0  max=  2693.0  win=0.000  ratio to P2 bound=0.538

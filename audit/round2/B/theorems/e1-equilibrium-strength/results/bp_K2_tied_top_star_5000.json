@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.00_honNT_muLow_focTop",
+ "alias": "K2_tied_top",
+ "n": 5000,
+ "bids": [
+  0.8,
+  0.8
+ ],
+ "tag": "star",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.8,
+  0.8
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.8,
+ "M_top": 0.8,
+ "revenue": {
+  "revenue_LB": 3330.1427653057776,
+  "revenue_UB": 3330.1427653057835,
+  "revenue_LB_per_round": 0.6660285530611555,
+  "revenue_UB_per_round": 0.6660285530611567
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.00_honNT_muLow_focTop",
+   "alias": "K2_tied_top",
+   "n": 5000,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.8,
+    0.8
+   ],
+   "honest_agent": false,
+   "L": 620,
+   "N": 3760,
+   "s_n": 0.1690940450459086,
+   "M_i": 0.8,
+   "mu_i": 0.1,
+   "V_i": 0.8,
+   "P_win": 0.5000000000000001,
+   "dropped_mass": 1.9117135639184644e-13,
+   "base_LB": 1084.928617346365,
+   "base_UB": 1084.9286173482872,
+   "V_F0": 1216.3827798541952,
+   "V_FUB": 1225.3036235828063,
+   "exploit_LB": 131.45416250590802,
+   "exploit_UB": 140.37500623644132,
+   "L_n": 620,
+   "theorem_constant_top": 1462.1313731927733,
+   "seconds": 52.38751769065857,
+   "exploit_LB_per_round": 0.026290832501181603,
+   "exploit_UB_per_round": 0.028075001247288265
+  },
+  "1": {
+   "instance": "K2_gap0.00_honNT_muLow_focTop",
+   "alias": "K2_tied_top",
+   "n": 5000,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.8,
+    0.8
+   ],
+   "honest_agent": true,
+   "L": 620,
+   "N": 3760,
+   "s_n": 0.1690940450459086,
+   "M_i": 0.8,
+   "mu_i": 0.35,
+   "V_i": 0.8,
+   "P_win": 0.5000000000000001,
+   "dropped_mass": 1.9117135639184644e-13,
+   "base_LB": 1709.9286173462485,
+   "base_UB": 1709.9286173481705,
+   "V_F0": 1837.5124623486042,
+   "V_FUB": 1847.015531077263,
+   "exploit_LB": 127.58384500043371,
+   "exploit_UB": 137.08691373101442,
+   "L_n": 620,
+   "theorem_constant_top": 1462.1313731927733,
+   "seconds": 51.44593667984009,
+   "exploit_LB_per_round": 0.02551676900008674,
+   "exploit_UB_per_round": 0.027417382746202885
+  }
+ }
+}

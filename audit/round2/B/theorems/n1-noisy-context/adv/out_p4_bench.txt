@@ -1,0 +1,5 @@
+max violation (loss - bound), negative or ~0 means the bound holds:
+  P2     2.220e-16
+  P1     0.000e+00
+  bayes  0.000e+00
+  h      0.000e+00

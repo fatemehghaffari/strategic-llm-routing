@@ -1,0 +1,12 @@
+[mech1, PROVER1 instance] n=20000 eps=0.2 R=200
+  pathwise (P1,coop)==(P2,shade~): True
+  alpha (withheld 2nd-half label-a share on P1, coop) = 0 by construction
+  scout's claimed lower bound on the shading gain: (1/2-alpha) eps n/2 = 1000
+  measured G = u(P2,shade) - u(P2,'1/2 throughout') = -6992  (analytic eps n/4 - (1-eps) n/2 = -7000)
+  identity: G + P = 999.2,  D = 999.2  (P=7991)
+  CONTROL (cross-label punishment clause deleted): G = 999  (scout bound 1000 now holds)
+
+[mech2, PROVER2 instance] p=0.5, E_2 = 1998, alpha_w = 0 (alpha always to W)
+  pathwise (P1,coop)==(P2,shade): True
+  gain vs PROVER2 cooperative comparator = 1001  >= (p-alpha_w) E_2 = 999
+  gain vs scout's '1/2 throughout'      = -1000  (scout's bound (1/2-alpha)E_2 = 999)

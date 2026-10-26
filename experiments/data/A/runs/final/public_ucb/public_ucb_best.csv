@@ -1,0 +1,13 @@
+instance,n,index,init,ties,reps,target,gain_per_round,gain_lo,gain_hi,focal_share,reward_per_round,note
+unique_top,2000,horizon,symmetric,perround,200,0.7424999999999999,0.07255148125000005,0.0704765035971901,0.07462645890281,0.6830475,0.6978375,grid-resolved in-class (S_HI) exploitability
+unique_top,2000,anytime,symmetric,perround,200,0.7424999999999999,0.08888233125000006,0.08630393226735926,0.09146073023264085,0.7600275000000001,0.71147,grid-resolved in-class (S_HI) exploitability
+unique_top,8000,horizon,symmetric,perround,200,0.7424999999999999,0.10209331562500004,0.10091237715848873,0.10327425409151135,0.8122837500000001,0.71875,grid-resolved in-class (S_HI) exploitability
+unique_top,8000,anytime,symmetric,perround,200,0.72,0.12294732500000004,0.1211905744893889,0.12470407551061118,0.8324337500000001,0.7044275,grid-resolved in-class (S_HI) exploitability
+unique_top,20000,horizon,symmetric,perround,200,0.72,0.12705973500000003,0.1259272233377129,0.12819224666228718,0.84514575,0.70529325,grid-resolved in-class (S_HI) exploitability
+unique_top,20000,anytime,symmetric,perround,200,0.72,0.14535071500000005,0.14426581099688648,0.1464356190031136,0.90045175,0.7108475000000001,grid-resolved in-class (S_HI) exploitability
+tied_top,2000,horizon,symmetric,perround,200,0.8,0.0,0.0,0.0,0.4785475,0.7813875,grid-resolved in-class (S_HI) exploitability
+tied_top,2000,anytime,symmetric,perround,200,0.8,0.0,0.0,0.0,0.49124,0.7886,grid-resolved in-class (S_HI) exploitability
+tied_top,8000,horizon,symmetric,perround,200,0.8,0.0,0.0,0.0,0.488171875,0.791640625,grid-resolved in-class (S_HI) exploitability
+tied_top,8000,anytime,symmetric,perround,200,0.8,0.0,0.0,0.0,0.49094875000000004,0.7951106250000001,grid-resolved in-class (S_HI) exploitability
+tied_top,20000,horizon,symmetric,perround,200,0.8,0.0,0.0,0.0,0.4955285,0.79563675,grid-resolved in-class (S_HI) exploitability
+tied_top,20000,anytime,symmetric,perround,200,0.8,0.0,0.0,0.0,0.49840550000000006,0.79745225,grid-resolved in-class (S_HI) exploitability

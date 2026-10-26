@@ -1,0 +1,94 @@
+{
+ "instance": "K2_gap0.00_honNT_muLow_focTop",
+ "alias": "K2_tied_top",
+ "n": 5000,
+ "bids": [
+  0.5,
+  0.5
+ ],
+ "tag": "joint",
+ "mu": [
+  0.1,
+  0.35
+ ],
+ "M": [
+  0.8,
+  0.8
+ ],
+ "honest": [
+  1
+ ],
+ "mu_H_star": 0.35,
+ "M_2": 0.8,
+ "M_top": 0.8,
+ "revenue": {
+  "revenue_LB": 1879.1325261691825,
+  "revenue_UB": 1879.1325261691825,
+  "revenue_LB_per_round": 0.3758265052338365,
+  "revenue_UB_per_round": 0.3758265052338365
+ },
+ "agents": {
+  "0": {
+   "instance": "K2_gap0.00_honNT_muLow_focTop",
+   "alias": "K2_tied_top",
+   "n": 5000,
+   "K": 2,
+   "agent": 0,
+   "bids": [
+    0.5,
+    0.5
+   ],
+   "honest_agent": false,
+   "L": 620,
+   "N": 3760,
+   "s_n": 0.1690940450459086,
+   "M_i": 0.8,
+   "mu_i": 0.1,
+   "V_i": 0.8,
+   "P_win": 0.49999999999999994,
+   "dropped_mass": 2.453759178934713e-13,
+   "base_LB": 1839.1914059846786,
+   "base_UB": 1839.1914059871324,
+   "V_F0": 3477.939861369067,
+   "V_FUB": 3487.2925508942362,
+   "exploit_LB": 1638.7484553819345,
+   "exploit_UB": 1648.1011449095577,
+   "L_n": 620,
+   "theorem_constant_top": 1462.1313731927733,
+   "seconds": 41.048893451690674,
+   "exploit_LB_per_round": 0.3277496910763869,
+   "exploit_UB_per_round": 0.3296202289819115
+  },
+  "1": {
+   "instance": "K2_gap0.00_honNT_muLow_focTop",
+   "alias": "K2_tied_top",
+   "n": 5000,
+   "K": 2,
+   "agent": 1,
+   "bids": [
+    0.5,
+    0.5
+   ],
+   "honest_agent": true,
+   "L": 620,
+   "N": 3760,
+   "s_n": 0.1690940450459086,
+   "M_i": 0.8,
+   "mu_i": 0.35,
+   "V_i": 0.8,
+   "P_win": 0.49999999999999994,
+   "dropped_mass": 2.453759178934713e-13,
+   "base_LB": 2406.676067844527,
+   "base_UB": 2406.676067846981,
+   "V_F0": 4244.709863180233,
+   "V_FUB": 4244.709865818634,
+   "exploit_LB": 1838.0337953332519,
+   "exploit_UB": 1838.033797974107,
+   "L_n": 620,
+   "theorem_constant_top": 1462.1313731927733,
+   "seconds": 41.053771018981934,
+   "exploit_LB_per_round": 0.36760675906665036,
+   "exploit_UB_per_round": 0.3676067595948214
+  }
+ }
+}
